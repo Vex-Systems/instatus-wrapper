@@ -15,7 +15,9 @@ Fork this repo, then go to <a href="https://github.com/Vex-Systems/instatus-wrap
 That's all! Now you can host it on vercel.app and have unlimited custom domains instead of one in pro plan and three in business plan.
 
 # Limitations
-While it will render the page accurately, with metadata such as title or favicon, but it will **NOT** work with "OG" <meta> properties and Twitter embeds.<br><br>
+While it will render the page accurately, with metadata such as title or favicon, but it will **NOT** work with "OG" <meta> properties and Twitter embeds.<br>
+The tags you will see in the browser are being set after metdata is fetched from the origin **not before rendering**, the cache TTL is **15 minutes.** 
+<br><br>
 <img width="426" height="128" alt="image" src="https://github.com/user-attachments/assets/ca35c11e-7f95-4abf-96f7-067961f717ed" /><br><br>
 <img width="482" height="79" alt="image" src="https://github.com/user-attachments/assets/ae858fb3-b559-4228-9857-830e76eaddb4" /><br>
 *The metdata is being cloned from original <a href="instatus.com">instatus.com</a> page. 
