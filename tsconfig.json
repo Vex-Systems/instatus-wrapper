@@ -16,7 +16,7 @@
     "plugins": [
       {
         "name": "next"
-      }
+      } 
     ],
     "skipLibCheck": true,
     "module": "esnext",
