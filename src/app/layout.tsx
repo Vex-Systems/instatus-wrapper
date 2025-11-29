@@ -3,7 +3,7 @@ import type { ReactNode } from "react"
 import Script from "next/script"
 
 export const metadata = {
-  title: "x"
+  title: "Loading..."
 }
 
 export const viewport = {
@@ -16,6 +16,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="pl">
       <head>
         <Script src="/config.js" strategy="beforeInteractive" />
+        <Script id="made-using" strategy="beforeInteractive">
+          {"/* Made using https://github.com/Vex-Systems/instatus-wrapper/tree/main */"}
+        </Script>
       </head>
       <body>{children}</body>
     </html>

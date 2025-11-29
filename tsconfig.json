@@ -20,7 +20,11 @@
     ],
     "skipLibCheck": true,
     "module": "esnext",
-    "isolatedModules": true
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "include": [
     "next-env.d.ts",
