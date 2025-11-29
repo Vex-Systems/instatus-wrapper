@@ -5,7 +5,8 @@ An simple wrapper that bypasses the $15 <a href="instatus.com">instatus.com</a> 
 You can visit the example by visiting <a href="instatus-wrapper.vercel.app">this link</a> or cliciking the one in the repository.
 <br><br>
 <img width="257" height="147" alt="image" src="https://github.com/user-attachments/assets/0fd24739-d55e-41b0-8ea6-84a42f1ce700" />
-
+<br><br>
+You can also visit <a href="https://status.vex.systems">status.vex.systems</a> as a live proof that it works
 # How to use?
 Fork this repo, then go to <a href="https://github.com/Vex-Systems/instatus-wrapper/blob/main/public/config.js">this file</a> and change the instatus url to one of yours.
 <br><br>
